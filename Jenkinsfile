@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo 'Cloning the repository...'
+                echo 'Cloning the repository in the jenkinsfile...'
                 checkout scm
             }
         }
